@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit-4-Game</title>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- <script type="text/javascript" src="assets/javascript/game.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<header>
+    <h2> Unit 4 Game</h2> <br>
+    <h2> Word Game - but not really</h2>
+</header>
+<body>
+<div id="instructions">
+    You will be given a random number at the start of the game.<br>
+    There are four buttons below. By clicking on a button you
+    will add a specific ammount of points to your total score.<br>
+    You win the game by making your total score to the random 
+    number. You lose the game if your total score goes above
+    the random number.<br>
+    The value of each button is hidden from you until you 
+    click on it.<br>
+    Each time the game starts, the game will change the
+    values of each button.<br>
+    Press reset to reset the game.<br>
+    Press STOP to exit to game to the browser.
+</div>
+<br>
+<div id="playingField">
+    <div id="targetScoreDisplay">
+        Target Score <br>
+        <div id="targetScore">0</div>
+    </div>
+    <div id="runningTotalDisplay">
+        Games<br>
+        <div id="wonGameDislay">
+            won 
+            <div id="wonGames">0</div>
+            lost 
+            <div id="lostGames">0</div>
+        </div>
+    </div><br>
+    
+    <div id="buttonBar">
+        <input type="image" img src="assets/images/Image3.jpg" width=100px height= 100px value="0" class = "btn">
+        <input type="image" img src="assets/images/Image4.jpg" width=100px height= 100px value="1" class = "btn">
+        <input type="image" img src="assets/images/Image5.jpg" width=100px height= 100px value="2" class = "btn">
+        <input type="image" img src="assets/images/Image6.jpg" width=100px height= 100px value="3" class = "btn">
+        <input type="image" img src="assets/images/update-arrow.png" width=100px height= 100px value="5" class = btn>
+        <input type="image" img src="assets/images/Image7.jpg" width=100px height= 100px value="6" class = btn>
+    </div><br>
+    <div id = "playerNotification">
+        Message Centre<br>
+        <div id = "message"><br>
+
+        </div>
+    </div>
+    <div id="playerScoreDisplay">
+        Current Play Score
+        <div id="playerScore">0</div>
+    </div>
+
+</div>
+
+
+
+
+</body>
+
+</html>

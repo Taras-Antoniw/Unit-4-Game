@@ -1,0 +1,38 @@
+header {
+    background-color: red;
+    text-align: center;
+}
+
+#instructions {
+    background-color: green;
+    text-align: left;
+    font-size: 12px;
+}
+
+#targetScoreDisplay {
+    background-color: yellow;
+    text-align: center;
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+
+#runningTotalDisplay {
+    background-color: orange;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    float: left;
+}
+
+#buttonBar {
+    clear: left;
+}
+#playerNotification {
+    text-align: center;
+    background-color: orangered;
+}
+
+#playerScoreDisplay {
+    background-color: yellowgreen;
+}
